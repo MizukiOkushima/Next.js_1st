@@ -26,8 +26,11 @@ HTMLが最初に読み込まれることでウェブクローラーが巡回し�
 エントリーポイントは`pages/index.js`<br>
 `pages/_app.js`が根本でAPPのComponent, pagePropsを受け取ってindex.jsが映し出されている<br>
 `pages/_app.js`で`import '@/styles/globals.css'`を読み込んでいるので全てのページで読み込まれる<br>
+<br>
+任意のid(url)を指定してjsファイルを作成できる。<br>
+`[id].js`<br>
 
-
+<br>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
